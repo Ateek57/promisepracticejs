@@ -1,0 +1,12 @@
+function makeTea(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("tea is ready!")
+        }, 2000);
+
+    })
+}
+let pr = makeTea()
+pr.then((result)=>{
+    console.log(result);
+});
