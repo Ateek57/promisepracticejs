@@ -6,7 +6,7 @@ function makeTea(){
 
     })
 }
-let pr = makeTea()
-pr.then((result)=>{
+let pr1 = makeTea()
+pr1.then((result)=>{
     console.log(result);
 });
